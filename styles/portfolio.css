@@ -17,6 +17,22 @@ body {
     padding: 15px 35px;
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    
+
+}
+
 /* nav related styles */
 nav {
     display: flex;
@@ -61,9 +77,10 @@ nav a {
     align-items: center;
     justify-content: space-between;
 }
- .banner-content{
+
+.banner-content {
     max-width: 500px;
- }
+}
 
 .banner .profile-pic {
     width: 500px;
@@ -82,10 +99,24 @@ nav a {
     margin-top: 5px;
     margin-bottom: 20px;
 }
-.banner-description{
+
+.banner-description {
     margin-top: 20px;
     margin-bottom: 30px;
 }
-.btn-primary{
+
+.btn-primary {
+    margin-top: 0;
     margin-right: 20px;
+}
+
+
+/* main section styles */
+
+/* about section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
 }

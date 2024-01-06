@@ -149,7 +149,7 @@ main section {
 
 .skills-container {
     display: flex;
-    gap: 24px;
+    gap: 25px;
 }
 
 .skill {
